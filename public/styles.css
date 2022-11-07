@@ -1,0 +1,55 @@
+body{
+  background: white;
+  background-image: url(img/supermarket.jpeg);
+  background-size: 100%;
+}
+h3{
+  margin-top: 40px;
+  color: black;
+}
+
+.itemText {
+  color:black;
+  text-align: center;
+}
+
+li {
+  color: black;
+  list-style: none;
+}
+
+
+.mainContainer {
+  margin-left: 37%;
+  margin-right: auto;
+  background-color: rgb(210,180,140);
+  width: 26%;
+}
+ 
+header h1 {
+  color: white;
+  margin-left: 43%;
+}
+header h2 {
+  margin-left: 40%;
+  margin-right: auto;
+  color: white;
+} 
+
+.checkgreen {
+  color: black;
+  
+}
+
+.checkblack {
+  color: red;
+
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.editForm {
+  display: none;
+}
