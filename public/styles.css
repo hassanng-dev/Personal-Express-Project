@@ -3,6 +3,8 @@ body{
   background-image: url(img/supermarket.jpeg);
   background-size: 100%;
 }
+
+
 h3{
   margin-top: 40px;
   color: black;
@@ -18,22 +20,70 @@ li {
   list-style: none;
 }
 
+.departmentChoices {
+  margin-left: 37%;
+}
 
 .mainContainer {
-  margin-left: 37%;
+  /* margin-left: 37%; */
+  margin-left: 6%;
   margin-right: auto;
-  background-color: rgb(210,180,140);
-  width: 26%;
+  background-color: rgb(245,245,245);
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+  background-color: rgb(227,218,201);
+  
 }
- 
+
+.mainContainer input {
+  /* margin-left: 34%; */
+  margin-top: 1%;
+}
+
+.departmentSection {
+  border: 2px solid black;
+  width: 20%;
+  height: auto; 
+  border-radius: 10px;
+  margin-right: 1%;
+  box-shadow: 8px 5px 5px black;
+  
+  
+}
+
+.departmentSection h3 {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.departmentTxt {
+  margin-left: 16%;
+}
+
+.messages {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .messages span {
+  display: flex;
+  flex-direction: row;
+}
+  */
 header h1 {
-  color: white;
-  margin-left: 43%;
+  
+  margin-left: 40%;
+  font-family: 'Sedgwick Ave', cursive, sans-serif;
+  font-size: 50px;
+  color: rgb(255,191,0);
 }
+
 header h2 {
   margin-left: 40%;
   margin-right: auto;
-  color: white;
+  font-family: 'Sedgwick Ave', cursive, sans-serif;
+  color: rgb(255,191,0);
 } 
 
 .checkgreen {
@@ -52,4 +102,5 @@ header h2 {
 
 .editForm {
   display: none;
+  margin-left: 4%;
 }
