@@ -1,4 +1,4 @@
-# Personal-Express-Project
+
 
 
 Have you ever gone grocery shopping and always forget something? Well look no further! Here I've created a shopping cart list where you can input all your neccessary items and have the ability to keep track and check off the items you've already put into your carts.
@@ -12,3 +12,5 @@ How I built this project is using HTML and CSS for markup text and styling. I us
 LESSON LEARNED:
 
 The lesson I learned is the process of using Node.js, Express, and MongoDB to save information to my database. I learned more about Javascript and how powerful it is in the client and server side. I am excited to create more projects!
+
+
