@@ -3,6 +3,7 @@
 
 Have you ever gone grocery shopping and always forget something? Well look no further! Here I've created a shopping cart list where you can input all your neccessary items and have the ability to keep track and check off the items you've already put into your carts.
 
+![Screenshot 2022-11-11 at 3 24 26 PM](https://user-images.githubusercontent.com/107250690/201427113-73a0638a-4947-46b5-bf63-655bf4f8489f.png)
 
 
 Tech used: HTML, CSS, JavaScript, Node.JS, Express, and MongoDB
