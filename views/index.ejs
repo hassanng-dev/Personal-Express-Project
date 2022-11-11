@@ -63,31 +63,31 @@
         
         
         
-        <form class="editForm" action="/edit/<%= messages[i]._id%>?_method=PUT" method="POST">
-          <input type="text" placeholder="Add an item" name="name">
-            <select name="department">
-              <option>Grocery</option>
-              <option>Dairy</option>
-              <option>Produce</option>
-              <option>Meats/Seafood</option>
-              <option>Household Items</option>
-            </select>
-          
-          <button type="submit">Submit</button>
-        </form>
-        <% } else { %>
+          <form class="editForm" action="/edit/<%= messages[i]._id%>?_method=PUT" method="POST">
+            <input type="text" placeholder="Add an item" name="name">
+              <select name="department">
+                <option>Grocery</option>
+                <option>Dairy</option>
+                <option>Produce</option>
+                <option>Meats/Seafood</option>
+                <option>Household Items</option>
+              </select>
+            
+            <button type="submit">Submit</button>
+          </form>
+          <% } else { %>
           <li class="message strikethrough">
             <span><%= messages[i].name %></span>
             <span><i class="fa fa-trash" aria-hidden="true"></i></span>
-          <span><i id="<%= messages[i]._id%>" data-checkbox="false" class="fa-solid fa-check checkblack" aria-hidden="true"></i></span>
-        </li>
-        <% } %>
+            <span><i id="<%= messages[i]._id%>" data-checkbox="false" class="fa-solid fa-check checkblack" aria-hidden="true"></i></span>
+          </li>
+          <% } %>
       
-        <% } %>
+          <% } %>
       
-      <% }  %>
-    </section>
-   <% } %>
+          <% }  %>
+        </section>
+        <% } %>
     
     </ul>
   

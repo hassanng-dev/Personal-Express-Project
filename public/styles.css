@@ -13,6 +13,7 @@ h3{
 .itemText {
   color:black;
   text-align: center;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 li {
@@ -55,10 +56,12 @@ li {
 .departmentSection h3 {
   text-align: center;
   margin-top: 1%;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 .departmentTxt {
   margin-left: 16%;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 .messages {
@@ -74,16 +77,17 @@ li {
 header h1 {
   
   margin-left: 40%;
-  font-family: 'Sedgwick Ave', cursive, sans-serif;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
   font-size: 50px;
-  color: rgb(255,191,0);
+  color: rgb(227,218,201);
 }
 
 header h2 {
-  margin-left: 40%;
+  margin-left: 39%;
   margin-right: auto;
-  font-family: 'Sedgwick Ave', cursive, sans-serif;
-  color: rgb(255,191,0);
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  color: rgb(227,218,201);
+  font-size: 25px;
 } 
 
 .checkgreen {
@@ -98,6 +102,8 @@ header h2 {
 
 .strikethrough {
   text-decoration: line-through;
+  margin-left: 18%;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 .editForm {
